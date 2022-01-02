@@ -9,7 +9,7 @@ from random import *
 from time import sleep
 
 
-bot = telebot.TeleBot("5055232832:AAHBGOOMubkPca2hRqx3Lw2YmI5ozmInOcQ")
+bot = telebot.TeleBot("COLOQUE O TOKEN GERADO PELO: @BotFather")
 
 
 @bot.message_handler(commands=['start'] + ['menu'])
